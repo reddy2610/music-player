@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Music
+        </title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous"
+      />
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="suno.css">
+
+    <script>
+        function trend1(){
+            window.location.href = 'trend1.html';
+        } 
+        function trend2(){
+            window.location.href = 'trend2.html';
+        } 
+        function trend3(){
+            window.location.href = 'trend3.html';
+        } 
+        function trend4(){
+            window.location.href = 'trend4.html';
+        } 
+        function trend5(){
+            window.location.href = 'trend5.html';
+        } 
+
+
+        function retro1(){
+            window.location.href = 'retro1.html';
+        } 
+        function retro2(){
+            window.location.href = 'retro2.html';
+        }
+         function retro3(){
+            window.location.href = 'retro3.html';
+        } 
+        function retro4(){
+            window.location.href = 'retro4.html';
+        }
+         function retro5(){
+            window.location.href = 'retro5.html';
+        } 
+
+        function english()
+        {
+          window.location.href='English.html';
+        }
+		function Kannada()
+		{
+			window.location.href='Kannada.html';
+		}
+		function hindi()
+		{
+			window.location.href='Hindi.html';
+		}
+		function telugu()
+		{
+			window.location.href='Telugu.html';
+		}
+		function tamil()
+		{
+			window.location.href='Tamil.html';
+		}
+        </script>
+    
+    </head>
+    <body  style="background-color:white;">
+        <div class="mb-5" >
+       <div style="background-color: #0b0b0b;">
+        <header>
+            <img src="./st2.jpg" id="logo">
+        </header>
+       </div>
+       <div class="form">
+        <form> 
+            <input type="search" placeholder="Search" style="width: 370px;">
+            <button type="submit" class="btn btn-warning" style="width: 90px;">Search</button>
+          </form>
+        </div>
+       <div class="img mt-4">
+       <div>
+        <img class="one" onclick="english()" src="./music1.jpg">
+        <h3 class="two">English</h3>
+       </div>
+       <div>
+        <img class="one" onclick="Kannada()" src="./music1.jpg">
+        <h3 class="two">Kannada</h3>
+       </div>
+       <div>
+        <img class="one" onclick="hindi()" src="./music1.jpg">
+        <h3 class="two">Hindi</h3>
+       </div>
+       <div>
+        <img class="one" onclick="telugu()" src="./music1.jpg">
+        <h3 class="two">Telugu</h3>
+       </div>
+       <div>
+        <img class="one" onclick="tamil()" src="./music1.jpg">
+        <h3 class="two">Tamil</h3>
+       </div>
+      </div>
+      <div>
+        <h3 class="mb-4 mt-4 t1" style="color: rgb(6, 6, 6);">Trending Songs</h3>
+        <div class="img">
+             <img src="tr1.jpg" class="btn1" onclick="trend1()" style=" width:240px; height:225px"> 
+             <img src="tr2.jpg" class="btn1" onclick="trend2()" style="width: 240px;"> 
+             <img src="t1.jpg"  class="btn1" onclick="trend3()" style="width: 230px; height:225px;">  
+             <img src="tr4.jpg" class="btn1" onclick="trend4()" style="width: 230px; height:225px;">
+             <img src="tr5.jpg" class="btn1" onclick="trend5()" style="height: 220px;">
+          </div>
+        </div>
+        <div>
+            <h3 class="mb-4 mt-4 t1" style="color: rgb(4, 4, 4);">Retro Hits</h3>
+            <div class="img">
+                  <img src="r1.jpg" class="btn1" onclick="retro1()" style="height: 200px;">  
+                  <img src="r2.jpg" class="btn1" onclick="retro2()" style="height: 200px;">
+                  <img src="r3.jpg" class="btn1" onclick="retro3()" style="height: 200px;"> 
+                  <img src="r4.jpg" class="btn1" onclick="retro4()" style="height: 200px;">  
+                  <img src="r5.jpg" class="btn1" onclick="retro5()" style="height: 200px;">                 
+        </div>
+       </div>
+</div>
+    </body>
+    
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suno Music</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/418fb55ca9.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="english.css">
+    <script src="english.js"></script>
+</head>
+    <body class="mb-2">
+        <audio id = "idAudio">
+			<source src = "./Alone---Alan-Walker(PagalWorld).mp3" type = "audio/ogg" >
+			<source src = "./Alone---Alan-Walker(PagalWorld).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+		<audio id = "idAudio1">
+			<source src = "./Despacito(PaglaSongs).mp3" type = "audio/ogg" >
+			<source src = "./Despacito(PaglaSongs).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>	
+		<audio id = "idAudio3">
+			<source src = "./Faded(PaglaSongs).mp3" type = "audio/ogg" >
+			<source src = "./Faded(PaglaSongs).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+		<audio id = "idAudio2">
+			<source src = "./Let Me Love You(PagalWorld.com.se).mp3" type = "audio/ogg" >
+			<source src = "./Let Me Love You(PagalWorld.com.se).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+		<audio id = "idAudio4">
+			<source src = "./Stay(PagalWorld).mp3" type = "audio/ogg" >
+			<source src = "./Stay(PagalWorld).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+        <audio id = "idAudio5">
+			<source src = "./Alone---Alan-Walker(PagalWorld).mp3" type = "audio/ogg" >
+			<source src = "./Alone---Alan-Walker(PagalWorld).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+		<audio id = "idAudio6">
+			<source src = "./Despacito(PaglaSongs).mp3" type = "audio/ogg" >
+			<source src = "./Despacito(PaglaSongs).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>	
+		<audio id = "idAudio7">
+			<source src = "./Faded(PaglaSongs).mp3" type = "audio/ogg" >
+			<source src = "./Faded(PaglaSongs).mp3" type ="audio/mpeg">The browser is not supporting the audio element...
+		</audio>
+        <div class="card" id="nav">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./st2.jpg" width="150px" height="80px">    
+                    </div>
+                    <div class="col-2 mt-4" id="sb">
+                        <p id="anch"><a><button onclick="music()" id="bh"><i class="fa-solid fa-house"></i>Home</button></a>
+                    </div>
+                    <div class="col-6 mt-4">
+                        <input type="search" placeholder="Search" id="s1"><button id="bs1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="col-2 mt-4">
+                        <button id="b1" onclick="sub()">Subscribe</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3" id="d21">
+                <img class="mt-5" src="./e1.jpg" id="img1">
+                <h2 class="mt-2">English Songs</h2>
+                <button class="mt-3 mr-4" id="b3" onclick="playsong()"><i class='fas fa-play' style='font-size:20px;'></i>Play songs</button>
+                <button id="b4" onclick="follow()">Follow</button> 
+            </div>
+            <div class="col-9">
+                <div id="d8">
+					<div class="card" id="d11">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>1</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Alone</label>
+                                    <br>
+                                    <label>Alan Waker</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb1" class="bb" onclick = "playaudio()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l1" class="bb" onclick = "stopaudio()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb" type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="d12">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>2</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Despacito</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio1()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb2" class="bb" onclick = "playaudio1()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l2" class="bb" onclick = "stopaudio2()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb" type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="d13">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>3</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Let Me Love You</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio2()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb3" class="bb" onclick = "playaudio2()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l3" class="bb" onclick = "stopaudio3()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb" type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					  </div>
+					  <div class="card" id="d14">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>4</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Faded</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio3()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb4"  class="bb" onclick = "playaudio3()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l4" class="bb" onclick = "stopaudio4()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb" type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					  </div>
+					  <div class="card" id="d15">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>5</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>stay</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb"  onclick = "pauseaudio4()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb5"  class="bb"  onclick = "playaudio4()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l5" class="bb" onclick = "stopaudio5()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb"  type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					  </div>
+                      <div class="card" id="d16">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>6</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Despacito</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio5()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb6" class="bb" onclick = "playaudio5()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l6" class="bb" onclick = "stopaudio6()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb"  type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="d17">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>7</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Faded</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio6()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button  id="bb7" class="bb" onclick = "playaudio6()" type = "button" ><i class='fas fa-play' style='font-size:15px;'></i></button>
+									<button id="l7" class="bb" onclick = "stopaudio7()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb"  type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					  </div>
+					  <div class="card" id="d18">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-1">
+									<label>8</label>
+								</div>
+								<div class="col-1">
+									<img src="./m1.jpeg" class="mimg">
+								</div>
+								<div class="col-4">
+									<label>Let Me Love You</label>
+								</div>
+								<div class="col-4"></div>
+								<div class="col-2">
+									<button class="bb" onclick = "pauseaudio7()" type = "button" ><i class="fa-solid fa-pause" style='font-size:20px;'></i></button>
+									<button id="bb8" class="bb" onclick = "playaudio7()" type = "button" ><i class='fas fa-play' style='font-size:15px; '></i></button>
+									<button id="l8" class="bb" onclick = "stopaudio8()" type = "button" ><i class="fa-solid fa-heart"></i></button>
+                                    <button class="bb" type = "button" ><i class="fa-solid fa-download"></i></button>
+								</div>
+							</div>
+						</div>
+					  </div>
+				</div>
+            </div>
+        </div>
+    </body>
+</html>

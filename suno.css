@@ -1,0 +1,88 @@
+header
+{
+ display: flex;
+ justify-content: center;
+}
+  form
+{
+ color: #555;
+ display: flex;
+ padding: 4px;
+ border: 6px solid currentColor;
+ border-radius: 3px;
+ margin-top: 20px;
+ width: 450px;
+ margin-right: 60px;
+}
+input[type="search"]
+{
+ border: none;
+ background: transparent;
+ margin: 0;
+ padding: 7px 8px;
+ font-size: 14px;
+ color: inherit;
+ border: 1px solid transparent;
+ border-radius:12px;
+ border-style: none;
+ background-color:grey;
+}
+input[type="search"]::placeholder 
+{
+ color:black;
+}
+.form
+{
+   display: flex;
+    justify-content: center;
+}
+.two
+{
+position:absolute;
+top:290px;
+margin: 70px 60px 60px 70px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.row
+{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+margin-top:30px ;
+justify-content: space-evenly;
+}
+.one
+{
+position: relative;
+border-radius: 7px;
+width:200px;
+height:220px;
+cursor: pointer;
+}
+.songs
+{
+   color: azure;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn1
+{
+ width:260px;
+ box-shadow:0 5px 10px yellow;
+ border: 1px solid black;
+ border-radius: 6px;
+ cursor: pointer;
+
+}
+
+.img
+    {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      justify-content:space-evenly ;
+      border-radius: 10px;
+    }
+.t1
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
